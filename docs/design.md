@@ -34,11 +34,17 @@ Para rever um ecrã contra "aspeto de IA" usar a skill `/unslop` (plugin `unslop
 | Amigável | Studio Feixen Sans, PP Mori, Aeonik, Degular, GT Walsheim, Circular |
 | Com personalidade | Apfel Grotezk, Aktiv Grotesk, ABC Favorit, Familjen Grotesk, ABC Monument Grotesk, ABC Oracle |
 | Técnico (mono) | ABC Diatype Mono, Söhne Mono, GT America Mono, IBM Plex Mono, Commit Mono, Departure Mono |
+| Serifa vintage | Editorial New, ABC Arizona, ABC Marist, Concrette, GT Super, Blazeface |
+| Serifa moderna | Tiempos Fine, Reckless, Signifier, Canela, Luperca, Domaine Display |
+| Serifa suave | EB Garamond, Exposure, GT Alpina, Mioya, Tiempos Text, Lyon Text |
+| Divertida | Gautreaux, Hobeaux, Obviously, Absans, GT Maru, 5by7 |
 
-**Proibidas (aspeto de IA):** Geist, Space Grotesk, Bricolage Grotesque, Instrument Sans, JetBrains Mono, Space Mono.
+**Proibidas (aspeto de IA):** Geist, Space Grotesk, Bricolage Grotesque, Instrument Sans, JetBrains Mono, Space Mono,
+Inter, Roboto, Arial, Instrument Serif, Fraunces, Playfair Display.
 
 Nota de licença: muitas destas são pagas. Gratuitas: Switzer (Fontshare), Familjen Grotesk (Google Fonts),
-IBM Plex Mono, Commit Mono, Departure Mono. A escolha final fica registada num ADR.
+IBM Plex Mono, Commit Mono, Departure Mono, EB Garamond (Google Fonts). A escolha final fica registada num ADR.
+Atenção: Inter, Roboto e Arial são o padrão de muitas bibliotecas (shadcn, MUI, Tailwind) — substituir explicitamente.
 
 ## 4. Regras de CSS em todos os componentes
 - **Cantos arredondados encaixados**: raio interior = raio exterior − padding.

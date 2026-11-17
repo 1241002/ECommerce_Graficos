@@ -11,7 +11,8 @@ Escrever sempre em português de Portugal. Enunciado em `01_enunciados/`; estado
 ## Design (obrigatório em todo o UI) — ver `docs/design.md`
 - Animações < 300 ms, sempre com easing (nunca `linear`); quanto mais usado, menos anima. Resposta < 400 ms.
 - Paletas e gradientes em OKLCH (`in oklch`); bordas com alfa; raio interior = exterior − padding; `100dvh`.
-- Fontes proibidas: Geist, Space Grotesk, Bricolage Grotesque, Instrument Sans, JetBrains Mono, Space Mono.
+- Fontes proibidas: Geist, Space Grotesk, Bricolage Grotesque, Instrument Sans, JetBrains Mono, Space Mono,
+  Inter, Roboto, Arial, Instrument Serif, Fraunces, Playfair Display (também como fallback de bibliotecas).
 - Antes de dar um ecrã por terminado: `/unslop` (plugin `unslop@heydamir`).
 
 ## Regras do enunciado que não se podem quebrar
