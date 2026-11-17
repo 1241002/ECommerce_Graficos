@@ -1,0 +1,25 @@
+# Dados (grandes; vêm do zip em 01_enunciados/)
+data/raw/
+01_enunciados/*.zip
+
+# Segredos e config local
+.env
+.env.*
+!.env.example
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Node / builds
+node_modules/
+.next/
+dist/
+coverage/
+
+# Python
+__pycache__/
+.venv/
+
+# Office / SO
+~$*
+Thumbs.db
+.DS_Store

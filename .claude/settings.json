@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(./01_enunciados/**)",
+      "Edit(./02_aulas/**)",
+      "Edit(./data/raw/**)",
+      "Edit(./_arquivo/**)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}
