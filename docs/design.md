@@ -28,6 +28,9 @@ Para rever um ecrã contra "aspeto de IA" usar a skill `/unslop` (plugin `unslop
 - **Jakob**: as pessoas esperam que funcione como as apps que já usam (padrões de dashboard conhecidos).
 
 ## 3. Tipografia
+Sugestões, não lista fechada: o objetivo é fugir das fontes por defeito/"de IA". Pode ser outra fonte
+com carácter; decide-se mais tarde. Só a lista de proibidas é regra.
+
 | Estilo | Fontes |
 |---|---|
 | Suíço limpo | ABC Diatype, TWK Lausanne, Switzer, Saans, Areal, Strichpunkt Sans |
