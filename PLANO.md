@@ -6,7 +6,8 @@
 - 17/11: `/setup-matt-pocock-skills` feito: tickets em GitHub Issues (github.com/1241002/ECommerce_Graficos),
   especificações também em `docs/specs/`, etiquetas por defeito, single-context. `gh` 2.104 instalado.
 - 17/11: `gh` autenticado (1241002); etiquetas de triagem criadas no repo.
-- **Próximo passo:** commit inicial + push; depois `/grill-with-docs` sobre o enunciado.
+- 17/11: commit inicial `7db7d80` enviado para o GitHub (branch `main`).
+- **Próximo passo:** `/grill-with-docs` sobre o enunciado.
 
 ## Decisões por tomar (o enunciado deixa ao grupo)
 - Utilizador principal do dashboard e ≥ 3 perguntas de negócio.

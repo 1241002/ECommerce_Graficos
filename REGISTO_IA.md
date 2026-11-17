@@ -6,3 +6,4 @@ Registar no momento: o que se pediu, o que a IA produziu, o que o grupo decidiu,
 |---|---|---|---|---|
 | 17/11/2026 | Claude Code | Estudo da masterclass e do enunciado; organização do projeto | Resumo da aula, instalação das skills do Matt Pocock, estrutura de pastas, CLAUDE.md, PLANO.md | Pedido e validação da estrutura |
 | 17/11/2026 | Claude Code (skill setup-matt-pocock-skills) | Configuração do workflow | Ficheiros `docs/agents/`, bloco "Agent skills" no CLAUDE.md, instalação do `gh` | Escolha do GitHub, do repositório e das etiquetas; especificações também em `docs/specs/` |
+| 17/11/2026 | Claude Code | Regras de design e skill unslop | Organização das regras em `docs/design.md`, resumo no CLAUDE.md, revisão e instalação do plugin `unslop` | Escolha das regras de design (animação, UX, tipografia, CSS) e da skill |

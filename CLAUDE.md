@@ -8,6 +8,12 @@ Escrever sempre em português de Portugal. Enunciado em `01_enunciados/`; estado
 - Frontend Next.js · Backend NestJS · PostgreSQL. Versões e ambiente: ainda por comunicar.
 - Gráficos, componentes, ORM e organização do código: escolha do grupo (registar em ADR).
 
+## Design (obrigatório em todo o UI) — ver `docs/design.md`
+- Animações < 300 ms, sempre com easing (nunca `linear`); quanto mais usado, menos anima. Resposta < 400 ms.
+- Paletas e gradientes em OKLCH (`in oklch`); bordas com alfa; raio interior = exterior − padding; `100dvh`.
+- Fontes proibidas: Geist, Space Grotesk, Bricolage Grotesque, Instrument Sans, JetBrains Mono, Space Mono.
+- Antes de dar um ecrã por terminado: `/unslop` (plugin `unslop@heydamir`).
+
 ## Regras do enunciado que não se podem quebrar
 - ETL reprodutível dos CSV para PostgreSQL; os CSV originais (`data/raw/`) nunca são alterados.
 - O frontend só acede a dados pela API do backend. Indicadores e filtros calculados no servidor/BD.
